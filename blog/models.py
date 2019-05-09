@@ -1,4 +1,5 @@
 from django.db import models
+from django.urls import reverse
 from django.utils import timezone
 from django.contrib.auth.models import User
 # Create your models here.
@@ -13,5 +14,8 @@ class Post(models.Model):
     def __str__(self):
         return self.title
     
-    
+                        # enables django to find the location of a specific post
+                        # reverse returns the full url o the path as a string
+    def get_absolute_url(self):
+        return reverse("post-detail", kwargs={"pk": self.pk})
     
