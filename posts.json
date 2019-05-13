@@ -1,0 +1,34 @@
+[
+
+  { "title": "My top 5 Programming Languages",
+    "content": "Python, Javascript, C++, Kotlin, R",
+    "user_id": 13
+  },
+
+  {
+    "title": "My Favorite Text Editors",
+    "content": " Visual Studio Code and Pycharm(Because am a Python Developer)",
+    "user_id": 13
+  },
+  {
+    "title": " Flask vs Django",
+    "content": " Django is a better framework because of many reasons, however flask is also good for mini projects because the framework is also small",
+    "user_id": 8
+  },
+  {
+    "title": "These Energy Drinks Will Improve Your Programming N.B This applies to developers who have access to them,",
+    "content": "WildCat and KungFu",
+    "user_id": 8
+  },
+  {
+    "title": "List of Speakers at PyCon 2021",
+    "content": "Dan Badder, Corey Schafer, Katongo Ongani",
+    "user_id": 9
+  },
+  {
+    "title": "People Who Inspired Me When i Started My Career ",
+    "content": "Steve Jobs, Alan Turing, TanMay Bakshi, CoreyMs, Linus Sebastian and Wiza Simbeye",
+    "user_id": 9
+  }
+
+]
